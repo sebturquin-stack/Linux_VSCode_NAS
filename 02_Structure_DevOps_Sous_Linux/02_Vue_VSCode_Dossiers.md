@@ -272,10 +272,10 @@ Tu veux une commande qui :
 🧩 2️⃣ Commande globale (mode admin senior)
 Exécute‑la depuis ton terminal Linux :
 
-bash
 sudo find /media/sebastien/DATA-2To -type f \( -iname "desktop.ini" -o -iname "thumbs.db" -o -iname "ehthumbs.db" \) -exec bash -c 'for f; do mv "$f" "$(dirname "$f")/.$(basename "$f")"; done' _ {} +
 
 🔍 Explication ligne par ligne
+
 | Élément                                                                                                            | Rôle                                                       |
 |--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | ``sudo ``find ``/media/sebastien/DATA-2To``                                                                        | Parcourt tout le volume                                    |
@@ -291,7 +291,6 @@ sudo find /media/sebastien/DATA-2To -type f \( -iname "desktop.ini" -o -iname "t
 🧩 3️⃣ Pour les dossiers système (comme System Volume Information)
 Tu peux les masquer aussi :
 
-bash
 sudo find /media/sebastien/DATA-2To -type d -iname "System Volume Information" -exec bash -c 'for d; do mv "$d" "$(dirname "$d")/.$(basename "$d")"; done' _ {} +
 
 👉 Cela les rend invisibles sous Linux, mais Windows les reconnaîtra toujours.
@@ -299,7 +298,6 @@ sudo find /media/sebastien/DATA-2To -type d -iname "System Volume Information" -
 🧩 4️⃣ Vérification post‑opération
 Pour vérifier que tout est bien caché :
 
-bash
 sudo find /media/sebastien/DATA-2To -maxdepth 3 -name ".*ini" -o -name ".*db"
 
 - Tu verras uniquement les fichiers cachés, preuve que la commande a bien fonctionné.

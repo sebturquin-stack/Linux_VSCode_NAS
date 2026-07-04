@@ -186,10 +186,7 @@ Contient actuellement :
 └── Configs/                    ← Configs manuelles
     ├── Cinnamon/
     ├── VSCode/
-    ├── Netdata/
-    └── Authelia/
-
-👉 Cette structure est parfaite pour :
+    ├── Netdata/04_Les_3_Axes_Possibles_Hors_MAJ/assets/test_performance_Friday  _3 ⁄ 07 ⁄ 2026_  ( 21 h 40 ) .png
 
 - ranger ce qui traîne
 - séparer les configs, scripts, backups

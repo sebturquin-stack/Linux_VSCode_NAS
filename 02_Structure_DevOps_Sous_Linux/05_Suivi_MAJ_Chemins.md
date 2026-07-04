@@ -22,6 +22,8 @@ Ce fichier sert de pense-bete pour maintenir des chemins propres quand tu deplac
 - Verification du symlink si present.
 - Test de lecture ou de sauvegarde.
 - Note de retour en cas d'echec.
+- Reference decision systeme: `../03_Gestion_des_MAJ_sous_Linux_Mint/08_Mini_Grille_de_Decision.md`
+- Reference index global MAJ: `../03_Gestion_des_MAJ_sous_Linux_Mint/00_Index.md`
 
 ## Zones a surveiller
 

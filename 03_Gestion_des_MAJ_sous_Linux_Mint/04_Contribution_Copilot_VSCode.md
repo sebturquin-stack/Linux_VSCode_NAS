@@ -91,3 +91,25 @@ Les delais constates lors des snapshots/upgrade sont coherents avec les capacite
 ## Conclusion
 
 La pile MAJ DevOps++ est stable, securisee et prete pour une utilisation reguliere en production personnelle.
+
+## Trace complementaire (2026-07-03)
+
+1. Identification de la source du warning `failed_units=1`:
+
+- service systeme en echec: `casper-md5check.service`
+- aucun service en echec cote user (`systemctl --user --failed` = 0)
+
+1. Decision appliquee:
+
+- option retenue: masquage du service (`systemctl mask`) pour supprimer le faux positif de supervision
+- suppression package non retenue (non necessaire)
+
+1. Resultat:
+
+- `casper-md5check.service` en etat `masked`
+- nettoyage `reset-failed` effectue
+- validation immediate sans failed units actives
+
+1. Reference detaillee:
+
+- voir `08_Mini_Grille_de_Decision.md` pour la procedure complete et la trace d'execution.
