@@ -1,0 +1,5 @@
+﻿.local/share/cinnamon/applets/
+.local/share/cinnamon/extensions/
+.themes/
+.icons/
+.config/cinnamon/

@@ -1,0 +1,16 @@
+batterypower@joka42/batterypower@joka42.json
+calendar@cinnamon.org/19.json
+calendar@simonwiles.net/29.json
+Cinnamenu@json/30.json
+Cinnamenu@json/75.json
+Cinnamenu@json/93.json
+collapsible-systray@feuerfuchs.eu/collapsible-systray@feuerfuchs.eu.json
+cornerbar@cinnamon.org/14.json
+favorites@cinnamon.org/9.json
+grouped-window-list@cinnamon.org/26.json
+networkmonitor@axel358/networkmonitor@axel358.json
+printers@cinnamon.org/6.json
+sound150@claudiux/sound150@claudiux.json
+spacer@cinnamon.org/35.json
+window-list@cinnamon.org/87.json
+workspace-switcher@cinnamon.org/82.json

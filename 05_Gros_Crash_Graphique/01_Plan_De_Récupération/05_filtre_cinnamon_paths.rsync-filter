@@ -1,0 +1,20 @@
+
+# Filter file for rsync when SOURCE is /home/sebastien/
+# Usage example:
+#   rsync -aAXHvn --delete --filter='merge /absolute/path/05_filtre_cinnamon_paths.rsync-filter' /home/sebastien/ /path/to/restore/
+# Remove -n only after review.
+
++ /.local/
++ /.local/share/
++ /.local/share/cinnamon/
++ /.local/share/cinnamon/applets/***
+
++ /.local/share/cinnamon/extensions/***
+
++ /.themes/***
++ /.icons/***
+
++ /.config/
++ /.config/cinnamon/***
+
+- *

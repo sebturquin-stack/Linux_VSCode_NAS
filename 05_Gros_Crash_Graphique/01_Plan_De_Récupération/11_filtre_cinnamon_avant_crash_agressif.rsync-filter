@@ -1,0 +1,21 @@
+# Aggressive filter for a staged restore tree that mirrors /home/sebastien/
+# Intended source: /home/sebastien/07_restore_before_crash_stage/
+#
+# This version explicitly keeps the historical Cinnamon config and the custom
+# applet code present in the historical backup.
+
++ /.config/
++ /.config/cinnamon/***
+
++ /.local/
++ /.local/share/
++ /.local/share/cinnamon/
++ /.local/share/cinnamon/applets/***
++ /.local/share/cinnamon/extensions/***
++ /.local/share/cinnamon/desklets/***
++ /.local/share/cinnamon/search_providers/***
+
++ /.themes/***
++ /.icons/***
+
+- *

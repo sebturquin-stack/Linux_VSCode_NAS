@@ -1,0 +1,4 @@
+date=2026-07-06 18:31:19
+gtk-theme='Mint-Y-Sand'
+icon-theme='Mint-Y-Sand'
+cinnamon-theme='Mint-Y-Dark-Sand'

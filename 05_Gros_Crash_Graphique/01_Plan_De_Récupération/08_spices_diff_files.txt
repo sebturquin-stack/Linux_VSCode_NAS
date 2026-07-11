@@ -1,0 +1,5 @@
+grouped-window-list@cinnamon.org/57.json
+menu@cinnamon.org/55.json
+panel-launchers@cinnamon.org/83.json
+sound@cinnamon.org/sound@cinnamon.org.json
+window-list@cinnamon.org/90.json
