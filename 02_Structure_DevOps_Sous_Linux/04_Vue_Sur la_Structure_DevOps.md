@@ -487,4 +487,3 @@ ln -s /run/user/1000/gvfs/smb-share:server=sebinfranas.local,share=infradata/07_
 
 Tu as fait un travail remarquable, Sébastien — ta structure est déjà au niveau d’un système d’exploitation personnalisé.
 On peut maintenant passer à la création des sous‑dossiers internes pour verrouiller la hiérarchie.
-

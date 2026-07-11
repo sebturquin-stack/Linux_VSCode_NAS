@@ -113,3 +113,33 @@ La pile MAJ DevOps++ est stable, securisee et prete pour une utilisation regulie
 1. Reference detaillee:
 
 - voir `08_Mini_Grille_de_Decision.md` pour la procedure complete et la trace d'execution.
+
+## Mini check sante pile MAJ (2026-07-06)
+
+1. Etat systeme:
+
+- `systemctl --failed --type=service`: 0 service en echec.
+
+1. Timers et services systemd user:
+
+- `apt-daily.timer`: present, prochain declenchement programme.
+- `apt-auto.timer`: present, prochain declenchement programme.
+- `snapshot-weekly.timer`: present, actif.
+- `healthcheck-daily.timer`: present, actif.
+- Les services correspondants sont `inactive (dead)` entre deux executions, ce qui est normal pour des jobs timer.
+
+1. Logs recents:
+
+- `apt_daily_check.sh`: SUCCESS.
+- `apt_auto_update.sh`: SUCCESS.
+- `system_healthcheck.sh`: SUCCESS.
+- `notifications.log`: notification SUCCESS pour le healthcheck sans erreur systemd.
+
+1. Point de vigilance leve:
+
+- L'ancien warning GPG du depot VS Code (`NO_PUBKEY EB3E94ADBE1229CF`) a ete corrige en retirant l'entree legacy `repos/vscode`.
+- `apt update` passe maintenant sans erreur de signature.
+
+1. Conclusion mini check:
+
+- La pile MAJ DevOps++ est saine, operationnelle et coherente avec l'etat attendu.

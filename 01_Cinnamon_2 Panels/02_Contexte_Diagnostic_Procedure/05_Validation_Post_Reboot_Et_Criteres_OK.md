@@ -9,7 +9,7 @@ Confirmer que la stabilisation est durable apres reboot et non seulement en sess
 | Controle   | Commande / Action                                                      | OK attendu              |
 |------------|------------------------------------------------------------------------|-------------------------|
 | Visuel     | Presence de 2 panels                                                   | Oui                     |
-| Doctor     | `~/01_Infra/02_Scripts/01_Cinnamon/cinnamon_panels_doctor.sh check`                            | Verdict OK              |
+| Doctor     | `~/01_Infra/02_Scripts/01_Cinnamon/cinnamon_panels_doctor.sh check`    | Verdict OK              |
 | Cles DCONF | `dconf dump /org/cinnamon/  grep -E 'panels-enabled|enabled-applets'`  | Lignes non vides        |
 | Topologie  | `gsettings get org.cinnamon panels-enabled`                            | 2 entrees               |
 | Applets    | `gsettings get org.cinnamon enabled-applets`                           | Applets panel1 + panel2 |

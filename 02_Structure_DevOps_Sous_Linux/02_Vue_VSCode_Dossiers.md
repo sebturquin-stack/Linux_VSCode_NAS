@@ -26,14 +26,14 @@ Code
 
 ### Table de correspondance des chemins
 
-| Element | Chemin actuel | Chemin cible | Action |
-|---|---|---|---|
-| Workspace VSCode | `/run/user/1000/gvfs/smb-share:server=sebinfranas.local,share=infradata/07_VSCode_Workspaces/05_Linux_VSCode_NAS/` | `~/03_VSCode_Workspaces/05_Linux_VSCode_NAS/` | Utiliser le symlink comme point d'entree unique |
-| Backups DCONF | `.../05_Linux_VSCode_NAS/00_Cinnamon_Backup_DCONF/` | `.../05_Linux_VSCode_NAS/00_Cinnamon_Backup_DCONF/` | Ne pas changer si le dossier reste dans le workspace NAS |
-| Scripts Cinnamon | `~/01_Infra/02_Scripts/01_Cinnamon/save_dconf_cinnamon.sh` | `~/01_Infra/02_Scripts/01_Cinnamon/save_dconf_cinnamon.sh` | Garder un point d'appel stable |
-| Doctor Cinnamon | `~/01_Infra/02_Scripts/01_Cinnamon/cinnamon_panels_doctor.sh` | `~/01_Infra/02_Scripts/01_Cinnamon/cinnamon_panels_doctor.sh` | Garder un point d'appel stable |
-| Reset Cinnamon | `~/01_Infra/02_Scripts/01_Cinnamon/reset_cinnamon_safe.sh` | `~/01_Infra/02_Scripts/01_Cinnamon/reset_cinnamon_safe.sh` | Garder un point d'appel stable |
-| Archives longues | `/home/sebastien/Backups/` | `/media/sebastien/DATA-2To/05_Sauvegardes/` | Deporter les archives et copies froides |
+| Element          | Chemin actuel                                                                                                          | Chemin cible                                                      | Action                                                      |
+|------------------|------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------|
+| Workspace VSCode | `/run/user/1000/gvfs/smb-share:server=sebinfranas.local,<br>share=infradata/07_VSCode_Workspaces/05_Linux_VSCode_NAS/` | `~/03_VSCode_Workspaces/<br>05_Linux_VSCode_NAS/`                 | Utiliser le symlink<br>comme point d'entree unique          |
+| Backups DCONF    | `.../05_Linux_VSCode_NAS/<br>00_Cinnamon_Backup_DCONF/`                                                                | `.../05_Linux_VSCode_NAS/<br>00_Cinnamon_Backup_DCONF/`           | Ne pas changer si le dossier<br>reste dans le workspace NAS |
+| Scripts Cinnamon | `~/01_Infra/02_Scripts/<br>01_Cinnamon/save_dconf_cinnamon.sh`                                                         | `~/01_Infra/02_Scripts/<br>01_Cinnamon/save_dconf_cinnamon.sh`    | Garder un point d'appel<br>stable                           |
+| Doctor Cinnamon  | `~/01_Infra/02_Scripts/<br>01_Cinnamon/cinnamon_panels_doctor.sh`                                                      | `~/01_Infra/02_Scripts/<br>01_Cinnamon/cinnamon_panels_doctor.sh` | Garder un point d'appel<br>stable                           |
+| Reset Cinnamon   | `~/01_Infra/02_Scripts/<br>01_Cinnamon/reset_cinnamon_safe.sh`                                                         | `~/01_Infra/02_Scripts/<br>01_Cinnamon/reset_cinnamon_safe.sh`    | Garder un point d'appel<br>stable                           |
+| Archives longues | `/home/sebastien/Backups/`                                                                                             | `/media/sebastien/DATA-2To/<br>05_Sauvegardes/`                   | Deporter les archives<br>et copies froides                  |
 
 ### Regle simple
 

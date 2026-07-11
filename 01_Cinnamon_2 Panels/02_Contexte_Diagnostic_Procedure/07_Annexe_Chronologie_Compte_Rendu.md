@@ -13,14 +13,14 @@
 
 ## Compte rendu des essais detaille
 
-| ID | Test                      | Commande                                     | Verdict |
-|----|---------------------------|----------------------------------------------|---------|
-| T1 | Etat DCONF service        | `systemctl --user status dconf.service`      | OK      |
-| T2 | Dump cles Cinnamon        | `dconf dump /org/cinnamon/`                  | OK      |
-| T3 | Topologie panels          | `gsettings get org.cinnamon panels-enabled`  | OK      |
-| T4 | Applets references        | `gsettings get org.cinnamon enabled-applets` | OK      |
-| T5 | Script doctor             | `~/01_Infra/02_Scripts/01_Cinnamon/cinnamon_panels_doctor.sh check`  | OK      |
-| T6 | Script reset safe (check) | `~/01_Infra/02_Scripts/01_Cinnamon/reset_cinnamon_safe.sh check`     | OK      |
+| ID | Test                      | Commande                                                            | Verdict |
+|----|---------------------------|---------------------------------------------------------------------|---------|
+| T1 | Etat DCONF service        | `systemctl --user status dconf.service`                             | OK      |
+| T2 | Dump cles Cinnamon        | `dconf dump /org/cinnamon/`                                         | OK      |
+| T3 | Topologie panels          | `gsettings get org.cinnamon panels-enabled`                         | OK      |
+| T4 | Applets references        | `gsettings get org.cinnamon enabled-applets`                        | OK      |
+| T5 | Script doctor             | `~/01_Infra/02_Scripts/01_Cinnamon/cinnamon_panels_doctor.sh check` | OK      |
+| T6 | Script reset safe (check) | `~/01_Infra/02_Scripts/01_Cinnamon/reset_cinnamon_safe.sh check`    | OK      |
 
 ## Baseline actuelle retenue
 
