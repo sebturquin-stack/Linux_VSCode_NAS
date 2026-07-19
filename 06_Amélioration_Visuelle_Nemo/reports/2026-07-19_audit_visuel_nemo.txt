@@ -1,0 +1,43 @@
+=== Audit visuel .code-workspace ===
+Date: 2026-07-19 14:56:55
+
+[Theme]
+'Mint-Y-Sand'
+
+[Lookup GTK]
+application-x-code-workspace: /home/sebastien/.local/share/icons/hicolor/64x64/mimetypes/application-x-code-workspace.png
+application-x-code-workspace-symbolic: /home/sebastien/.local/share/icons/hicolor/64x64/mimetypes/application-x-code-workspace-symbolic.png
+vscode: /usr/share/icons/Mint-Y/apps/64/vscode.png
+
+[Fichiers .code-workspace]
+# /home/sebastien/03_VSCode_Workspaces/01_Documentation_Peripheriques/Bibliothèque_Technique .code-workspace
+  standard::icon: application-x-code-workspace, application-x-generic, application-x-code-workspace-symbolic, application-x-generic-symbolic
+  standard::content-type: application/x-code-workspace
+  metadata::custom-icon-name: vscode
+
+# /home/sebastien/03_VSCode_Workspaces/02_QG_-_RESEAUX_-_2026/Seb_Infra.code-workspace
+  standard::icon: application-x-code-workspace, application-x-generic, application-x-code-workspace-symbolic, application-x-generic-symbolic
+  standard::content-type: application/x-code-workspace
+  metadata::custom-icon-name: vscode
+
+# /home/sebastien/03_VSCode_Workspaces/03_Apprentissage_Sur_VSCode/L'Apprentissage_VSCode.code-workspace
+  standard::icon: application-x-code-workspace, application-x-generic, application-x-code-workspace-symbolic, application-x-generic-symbolic
+  standard::content-type: application/x-code-workspace
+  metadata::custom-icon-name: vscode
+
+# /home/sebastien/03_VSCode_Workspaces/04_Profil_Atelier II Documentation - SébDocs_VSCode/Profil_SébDoc_Atelier-II.code-workspace
+  standard::icon: application-x-code-workspace, application-x-generic, application-x-code-workspace-symbolic, application-x-generic-symbolic
+  standard::content-type: application/x-code-workspace
+  metadata::custom-icon-name: vscode
+
+# /home/sebastien/03_VSCode_Workspaces/05_Linux_VSCode_NAS/Linux_VSCode.code-workspace
+  standard::icon: application-x-code-workspace, application-x-generic, application-x-code-workspace-symbolic, application-x-generic-symbolic
+  standard::content-type: application/x-code-workspace
+  metadata::custom-icon-name: vscode
+
+# /home/sebastien/03_VSCode_Workspaces/06_KeePassXC_Conf_W10_&_Linux/06_KeePassXC_W10-Linux.code-workspace
+  standard::icon: application-x-code-workspace, application-x-generic, application-x-code-workspace-symbolic, application-x-generic-symbolic
+  standard::content-type: application/x-code-workspace
+  metadata::custom-icon-name: vscode
+
+=== Fin audit ===

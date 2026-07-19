@@ -1,0 +1,11 @@
+[Unit]
+Description=Timer rappel MAJ Linux (au login + toutes les 30 min)
+
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=30min
+Persistent=true
+Unit=linux-maj-reminder.service
+
+[Install]
+WantedBy=timers.target

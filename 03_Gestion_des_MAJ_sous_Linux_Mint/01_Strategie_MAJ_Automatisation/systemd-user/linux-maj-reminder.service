@@ -1,0 +1,6 @@
+[Unit]
+Description=Rappel MAJ Linux Mardi/Samedi (check persistant)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash %h/.local/bin/linux_maj_reminder.sh --check

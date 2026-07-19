@@ -12,9 +12,11 @@ Ce fichier centralise la navigation et les evenements dates du dossier MAJ Linux
 6. [06_Comment_Fonctionne_Timeshift_Interne.md](06_Comment_Fonctionne_Timeshift_Interne.md)
 7. [07_Cas des MAJ qui_Apparaissent.md](07_Cas%20des%20MAJ%20qui_Apparaissent.md)
 8. [08_Mini_Grille_de_Decision.md](08_Mini_Grille_de_Decision.md)
+9. [01_Strategie_MAJ_Automatisation/00_Index.md](01_Strategie_MAJ_Automatisation/00_Index.md)
 
 ## Journal date
 
+- 2026-07-16: creation du dossier `01_Strategie_MAJ_Automatisation` pour tracer l'incident MAJ, formaliser le diagnostic et preparer le plan week-end d'automatisation.
 - 2026-07-03: decision de masquer `casper-md5check.service` pour supprimer le faux positif `failed_units=1` sans suppression de package.
   Reference detail: [08_Mini_Grille_de_Decision.md](08_Mini_Grille_de_Decision.md)
   Trace contribution: [04_Contribution_Copilot_VSCode.md](04_Contribution_Copilot_VSCode.md)

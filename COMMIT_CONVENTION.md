@@ -9,11 +9,13 @@ Garder un historique lisible, actionnable et facilement reversible.
 Type(scope): resume court a l imperatif
 
 Corps optionnel:
+
 - Pourquoi
 - Ce qui change
 - Impact/risque
 
 Footer optionnel:
+
 - Refs: ticket, note, incident, date
 
 ## Types Autorises
