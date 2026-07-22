@@ -13,6 +13,10 @@ Ce fichier centralise la navigation et les evenements dates du dossier MAJ Linux
 7. [07_Cas des MAJ qui_Apparaissent.md](07_Cas%20des%20MAJ%20qui_Apparaissent.md)
 8. [08_Mini_Grille_de_Decision.md](08_Mini_Grille_de_Decision.md)
 9. [01_Strategie_MAJ_Automatisation/00_Index.md](01_Strategie_MAJ_Automatisation/00_Index.md)
+10. [01_Strategie_MAJ_Automatisation/06_Plan_Elargissement_Perimetre_Auto.md](01_Strategie_MAJ_Automatisation/06_Plan_Elargissement_Perimetre_Auto.md)
+11. [02_Elargissement_Pile_Automat/00_Index.md](02_Elargissement_Pile_Automat/00_Index.md)
+12. [02_Elargissement_Pile_Automat/01_Bilan_Et_Mode_Operatoire.md](02_Elargissement_Pile_Automat/01_Bilan_Et_Mode_Operatoire.md)
+13. [02_Elargissement_Pile_Automat/02_Grille_Lecture_30s_Logs.md](02_Elargissement_Pile_Automat/02_Grille_Lecture_30s_Logs.md)
 
 ## Journal date
 

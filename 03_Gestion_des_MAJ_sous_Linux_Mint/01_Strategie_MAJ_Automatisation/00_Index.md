@@ -10,6 +10,7 @@ Objectif: eliminer les lots de MAJ trop volumineux et fiabiliser la pile automat
 3. [03_Recap_Courte_A_Coller.md](03_Recap_Courte_A_Coller.md)
 4. [04_Check_30s_Mardi_Samedi.md](04_Check_30s_Mardi_Samedi.md)
 5. [05_Rappel_Persistant_Login.md](05_Rappel_Persistant_Login.md)
+6. [06_Plan_Elargissement_Perimetre_Auto.md](06_Plan_Elargissement_Perimetre_Auto.md)
 
 ## Resultat attendu
 
