@@ -1,0 +1,29 @@
+{
+    "recommendations": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "redhat.vscode-yaml",
+        "ms-vscode.powershell",
+        "davidanson.vscode-markdownlint",
+        "bierner.markdown-preview-github-styles",
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "vscode-icons-team.vscode-icons",
+        "mushan.vscode-paste-image"
+    ],
+    "unwantedRecommendations": [
+        "aaron-bond.better-comments",
+        "darkriszty.markdown-table-prettify",
+        "ms-vscode.notepadplusplus-keybindings",
+        "monokai.theme-monokai-pro-vscode",
+        "ms-vscode.remote-explorer",
+        "ms-vscode.remote-server",
+        "shd101wyy.markdown-preview-enhanced",
+        "thqby.vscode-autohotkey2-lsp",
+        "vscodevim.vim",
+        "nickcernis.github-cli-ui"
+    ]
+}

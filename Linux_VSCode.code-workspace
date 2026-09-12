@@ -4,5 +4,90 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"chat.disableAIFeatures": false,
+		"chat.sessionSync.enabled": true,
+		"editor.inlineSuggest.enabled": true,
+		"editor.suggest.preview": true,
+		"github.copilot.enable": {
+			"*": true,
+			"plaintext": false,
+			"markdown": true,
+			"scminput": true,
+			"gitcommit": true
+		},
+		"workbench.iconTheme": "Monokai Classic Icons",
+		"workbench.colorTheme": "Dark Modern",
+		"workbench.editor.enablePreview": false,
+		"vsicons.dontShowNewVersionMessage": true,
+		"vsicons.projectDetection.autoReload": true,
+		"editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+		"editor.fontSize": 13,
+		"editor.fontLigatures": true,
+		"editor.lineHeight": 1.5,
+		"editor.tabSize": 4,
+		"editor.rulers": [
+			100
+		],
+		"editor.renderWhitespace": "selection",
+		"editor.renderLineHighlight": "all",
+		"editor.bracketPairColorization.enabled": true,
+		"editor.guides.bracketPairs": true,
+		"editor.scrollBeyondLastLine": false,
+		"editor.minimap.enabled": false,
+		"editor.cursorSmoothCaretAnimation": "on",
+		"editor.smoothScrolling": true,
+		"editor.stickyScroll.enabled": true,
+		"terminal.integrated.fontFamily": "JetBrains Mono, Consolas, monospace",
+		"terminal.integrated.fontSize": 13,
+		"terminal.integrated.lineHeight": 1.2,
+		"terminal.integrated.cursorBlinking": true,
+		"terminal.integrated.defaultProfile.windows": "PowerShell",
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"files.autoSave": "afterDelay",
+		"diffEditor.ignoreTrimWhitespace": false,
+		"markdown.preview.fontSize": 15,
+		"markdown.preview.lineHeight": 1.55,
+		"markdown.extension.toc.updateOnSave": true,
+		"[markdown]": {
+			"editor.wordWrap": "on",
+			"editor.quickSuggestions": {
+				"comments": "off",
+				"strings": "off",
+				"other": "off"
+			}
+		},
+		"[yaml]": {
+			"editor.insertSpaces": true,
+			"editor.tabSize": 2
+		},
+		"[shellscript]": {
+			"editor.insertSpaces": true,
+			"editor.tabSize": 4
+		},
+		"workbench.colorCustomizations": {
+			"editor.background": "#0f1117",
+			"editorLineNumber.foreground": "#5f677a",
+			"editorLineNumber.activeForeground": "#d8dee9",
+			"editor.selectionBackground": "#264f78",
+			"editor.inactiveSelectionBackground": "#1e304480",
+			"editorCursor.foreground": "#8be9fd",
+			"editorIndentGuide.background1": "#2a3140",
+			"editorIndentGuide.activeBackground1": "#5c6a86",
+			"sideBar.background": "#0b0e14",
+			"activityBar.background": "#0b0e14",
+			"titleBar.activeBackground": "#0b0e14",
+			"statusBar.background": "#111521",
+			"panel.background": "#0d111b"
+		},
+		"cSpell.customDictionaries": {
+			"custom-dictionary-workspace": {
+				"name": "custom-dictionary-workspace",
+				"path": "${workspaceFolder:05_Linux_VSCode_NAS}/.cspell/custom-dictionary-workspace.txt",
+				"addWords": true,
+				"scope": "workspace"
+			}
+		}
+	}
 }
