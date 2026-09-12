@@ -33,7 +33,7 @@ Résultat :
 
 🧩 2.1 — Détection du device snapshot
 
-Timeshift lit sa configuration dans :
+Timeshift lit sa configuration dans :pourquoi tu me vouvois ?
 
 /etc/timeshift.json
 
