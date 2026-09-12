@@ -13,10 +13,16 @@ Le 2026-07-16, les MAJ se sont accumulees (environ 21 cote interface, 68 paquets
 ## Commandes standard
 
 ```bash
-sudo apt-get update
-sudo apt-get -y dist-upgrade
-sudo apt-get -y autoremove --purge
+sudo apt update
+sudo apt -y full-upgrade
+sudo apt -y autoremove --purge
 apt list --upgradable
+```
+
+## Routine simple (copier-coller)
+
+```bash
+sudo apt update && sudo apt -y full-upgrade && sudo apt -y autoremove --purge && apt list --upgradable && ~/.local/bin/linux_maj_reminder.sh --ack && ~/.local/bin/linux_maj_reminder.sh --status
 ```
 
 ## Verdict

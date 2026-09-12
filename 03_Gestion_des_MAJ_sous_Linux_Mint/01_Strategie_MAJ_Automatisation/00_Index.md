@@ -17,3 +17,8 @@ Objectif: eliminer les lots de MAJ trop volumineux et fiabiliser la pile automat
 - MAJ securite automatises tous les jours.
 - MAJ completes executes sur un rythme court (2 fois par semaine minimum).
 - Plus de session surprise de 30 a 45 minutes pour des lots accumules.
+
+## Acces rapide
+
+- Routine MAJ simple (copier-coller): voir `05_Rappel_Persistant_Login.md`, section **Routine simple (copier-coller)**.
+- Acquittement rappel apres MAJ: `~/.local/bin/linux_maj_reminder.sh --ack`.
