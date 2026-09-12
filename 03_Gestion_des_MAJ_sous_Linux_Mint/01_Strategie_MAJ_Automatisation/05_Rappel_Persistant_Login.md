@@ -15,7 +15,28 @@
 - Etat: `~/.local/state/linux-maj-reminder/state.env`
 - Logs rappel: `~/.local/state/linux-maj-reminder/reminder.log`
 
-## Commandes utiles
+## Commandes utiles et routine simple
+
+### Routine simple (copier-coller)
+
+Objectif: faire la MAJ complete, verifier, puis acquitter le rappel.
+
+```bash
+sudo apt update && sudo apt -y full-upgrade && sudo apt -y autoremove --purge
+apt list --upgradable
+~/.local/bin/linux_maj_reminder.sh --ack
+~/.local/bin/linux_maj_reminder.sh --status
+```
+
+Repere rapide:
+
+- Si la sortie de `apt list --upgradable` ne contient plus de paquets, le cycle est termine.
+- En cas de demande de redemarrage, redemarrer puis relancer seulement:
+
+```bash
+apt list --upgradable
+~/.local/bin/linux_maj_reminder.sh --status
+```
 
 Voir l'etat:
 
